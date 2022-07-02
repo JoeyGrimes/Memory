@@ -1,0 +1,13 @@
+//Memory Game
+//20 cards will be positioned facedown on the screen
+//After a card is clicked it will flip to reveal its face
+//The user is then able to click another card while the first card remains faceup
+//If the first card and the second card are not the same, both cards will return facedown
+//The user is then able to select another first card
+//If the user selects a first and second card that are the same, both will remain faceup and are no longer available to be clicked
+// The user will select all possible matches until there are none remaining, and will win the game
+
+
+
+
+
