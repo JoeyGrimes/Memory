@@ -39,18 +39,30 @@ let win;
 
 
 /*----- cached element references -----*/
-//divs need to be able to be interacted with via EventListener,
-
+//array of values assigned to HTML Divs
+const boardCards = document.querySelectorAll('#board' > 'div');
 
 
 
 /*----- event listeners -----*/
+boardCards.addEventListener('click' , clickCard1 );
+boardCards.addEventListener('click' , clickCard2 );
 
-
-
-
+render ()
 /*----- functions -----*/
+function clickCard1() {
+let clicked1 = evt.target; 
+if (clicked1 !== clicked2)
+return null;
+    else if (clicked1 !== clicked2)
 
+}
+
+function clickCard2(){
+let clicked2 = evt.target; 
+
+
+}
 initalize();
 
 function initalize() {
