@@ -1,20 +1,24 @@
 html, body {
   height: 100%;
   width: 100%;
-  display: flex;
+  display: grid;
 }
 body {
-  display: flex;
+  display: grid;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://d.furaffinity.net/art/blazingifrit/1475361156/1475361156.blazingifrit_zoruaeevee_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
 font-size: 48px;
+text-align: center;
 
 }
 
@@ -22,6 +26,7 @@ font-size: 48px;
 #board {
   display: grid;
   grid-template-columns: repeat(5, 100px);
+  min-width: 620px;
   row-gap: 20px;
   column-gap: 30px;
   margin:25px, 0, 0, 150px;
